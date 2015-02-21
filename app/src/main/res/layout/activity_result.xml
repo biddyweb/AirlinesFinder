@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:tools="http://schemas.android.com/tools"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				tools:context="thebeginnerapp.fr.airlinesfinder.ResultActivity"
+				>
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/container"
+		android:background="@drawable/background"
+		android:weightSum="6">
+		<LinearLayout android:layout_width="match_parent"
+					  android:layout_height="0dp" android:layout_weight="1"
+					  android:orientation="horizontal">
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:text="@string/AirlinesFinder"
+				android:id="@+id/textViewTitle"
+				android:textSize="25sp"
+				android:gravity="center_horizontal|bottom"
+				android:textColor="#C00606"
+				android:textStyle="bold"/>
+
+		</LinearLayout>
+		<ScrollView android:layout_width="match_parent"
+				android:layout_height="0dp" android:layout_weight="5">
+				<TableLayout android:layout_height="wrap_content" android:id="@+id/tdyn"  android:layout_width="match_parent">
+
+				</TableLayout>
+	</ScrollView>
+	</LinearLayout>
+</LinearLayout>
