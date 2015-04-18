@@ -1,8 +1,9 @@
 <resources>
 	<string name="app_name">AirlinesFinder</string>
-
+	<string name="urlairlines_text">Airlines Manager 2</string>
 	<string name="urlairlines">http://www.airlines-manager.com/</string>
 	<string name="urlairlinesforum">http://forum.airlines-manager.com/</string>
+	<string name="urlairlinesforum_text">Forum Airlines Manager 2</string>
 	<string name="AirlinesFinder">Airlines Finder</string>
 	<string name="AirlinesFinderStart">Commencer</string>
 	<string name="action_settings">Settings</string>
